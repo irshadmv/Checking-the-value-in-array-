@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int key,index,flag,i,j,A[100]={10,20,30,40,50};
+    printf("enter a key value");
+    scanf("%d",&j);
+    key=j;
+    flag=0;
+    for(i=0;i<5;i++)
+    {
+        if(A[i]==key)
+        {
+            flag=1;
+            index=i;
+            printf("THE KEY NUMBER IS PRESENT AT POSTION %d",index);
+            break;
+        }
+    
+    }
+    return 0;
+}
